@@ -1,4 +1,4 @@
-torch>=1.1.0
+torch>=2.9.0
 torchvision
 scipy
 numpy
@@ -9,3 +9,4 @@ rich
 scikit-learn
 wandb
 submitit
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
