@@ -1,4 +1,4 @@
-torch>=1.1.0
+torch>=2.10.0
 torchvision
 scipy
 numpy
@@ -9,3 +9,5 @@ rich
 scikit-learn
 wandb
 submitit
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
